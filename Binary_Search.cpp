@@ -22,8 +22,6 @@ bool binary_search(const std::vector<int>& arr, const int& key) {
 		}
 	}
 	return false;
-	
-	
 }
 
 int main() {
