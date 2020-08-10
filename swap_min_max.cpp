@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    std::array<int, 6> arr = { 1, 2, 5, 0, 3, 6 };
+    array<int, 6> arr = { 1, 2, 5, 0, 3, 6 };
     const auto [min_it, max_it] = minmax_element(begin(arr), end(arr));
     iter_swap(min_it, max_it);
 
