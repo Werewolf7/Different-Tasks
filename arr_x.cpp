@@ -1,3 +1,5 @@
+//Дан массив целых чисел Х. Найти количество отрицательных элементов массива.
+
 #include <iostream>
 #include <vector>
 #include <iterator>
