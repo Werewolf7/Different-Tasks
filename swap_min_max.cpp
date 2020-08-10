@@ -1,3 +1,5 @@
+//Найти наибольший и наименьший элементы массива и поменять их в массиве местами
+
 #include <array>
 #include <algorithm>
 #include <iostream>
