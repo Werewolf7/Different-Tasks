@@ -16,7 +16,7 @@ int multiply(const int x, const int y) {
     return x * y;
 }
 int division(const int x, const int y) {
-    return x / y; //âåðíåòñÿ íå âåùåñòâåííîå ÷èñëî
+    return x / y; 
 }
 int main()
 {
