@@ -1,3 +1,5 @@
+//Создать массив указателей на функции. Функции выполняют арифметические действия
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -14,7 +16,7 @@ int multiply(const int x, const int y) {
     return x * y;
 }
 int division(const int x, const int y) {
-    return x / y; //�������� �� ������������ �����
+    return x / y; //âåðíåòñÿ íå âåùåñòâåííîå ÷èñëî
 }
 int main()
 {
