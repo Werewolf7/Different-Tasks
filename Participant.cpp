@@ -63,7 +63,8 @@ void determine_winner(std::vector<Participant>& arr_participant) {
         arr_participant.begin(), 
         arr_participant.end(),
         0,
-        [max_points_less_200](int counter, const Participant& el) { return (el.get_points() < 200 && el.get_points() == max_points_less_200->get_points() ? counter += 1 : counter += 0); }
+        [max_points_less_200](int counter, const Participant& el) 
+        { return (el.get_points() < 200 && el.get_points() == max_points_less_200->get_points() ? counter += 1 : counter += 0); }
     );
     if (quantity_less_200 == 1) { std::cout << max_points_less_200->get_surname() << " " << max_points_less_200->get_name() << std::endl; }
 
@@ -72,7 +73,7 @@ void determine_winner(std::vector<Participant>& arr_participant) {
 
 int main() {
     int N{ 0 };
-    std::cout << "Ââåäèòå N" << std::endl;
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ N" << std::endl;
     std::cin >> N;
     std::vector<Participant> arr_participant(N);
     input_data(N, arr_participant);
